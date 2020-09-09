@@ -54,6 +54,7 @@ class DataTableDao
                 "nome" => $row['nome'],
                 "celular" => $row['celular'],
                 "email" => $row['email'],
+                "updated_at" => $row['updated_at'],
 
             );
         }
